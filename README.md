@@ -18,7 +18,7 @@ This folder is used to store all dataset/corpora related data. The folder *ED_da
 **Note:** The *Empathetic Dialogue* data files are already included in the project. However, the files can be downloaded by following the instructions available on the official dataset github: https://github.com/facebookresearch/EmpatheticDialogues
 
 ### EEG_Model Folder
-Contains and stores any code or data related to the EEG Neural model (i.e. code, output files and saved models). The model code is defined in *EEG_gpt2.py* file, using pytorch. The file *EventDataset.py* defines a custom dataset class so that we can use our corpus with pytorch and *EarlyStopping.py* contains the class that deals with the Early Stopping process during training. Lastly, all related data us sotred in the *EEG_gpt2_files* folder.
+Contains and stores any code or data related to the EEG Neural model (i.e. code, output files and saved models). The model code is defined in *EEG_gpt2.py* file, using pytorch. The file *EventDataset.py* defines a custom dataset class so that we can use our corpus with pytorch and *EarlyStopping.py* contains the class that deals with the Early Stopping process during training. Lastly, all related data is stored in the *EEG_gpt2_files* folder.
 
 ### Eventify Folder
 Contains the code (*PredPatt_Eventify.py*) used to extract events from *Empathetic Dialogues* as described in the paper.
