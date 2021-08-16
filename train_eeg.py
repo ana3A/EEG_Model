@@ -19,7 +19,7 @@ CHECKPOINT_MODEL_PATH = None
 RES_FILE_PATH = None
 
 """"
-Finctions for Bayesian optimization
+Functions for Bayesian optimization
 """
 # Callback that saves the current best model
 def customCallback(res):
